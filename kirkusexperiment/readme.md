@@ -21,11 +21,17 @@ Code used in the experiment
 
 **make_kirkus_deltas.py** creates normalized word vectors to be used in subsequent stages of processing. We refer to those vectors as "deltas" not because they reflect a change, but because they're standardized using Burrows' Delta. For the rationale guiding that choice, see
 
-    S. Evert, T. Proisl, F. Jannidis, I. Reger, S. Pielstr ̈om, C. Sch ̈och, T. Vitt, Understandingand  explaining  Delta  measures  for  authorship  attribution,   Digital  Scholarship  in  theHumanities 31 (2017).
+    S. Evert, T. Proisl, F. Jannidis, I. Reger, S. Pielström, C. Schöch, T. Vitt, Understanding and  explaining  Delta  measures  for  authorship  attribution,   Digital  Scholarship  in  the Humanities 31 (2017).
 
 You will not be able to run **make_kirkus_deltas.py**, as it stands, on your own machine, because it points to extracted-feature files downloaded from HathiTrust Research Center. Those files are too bulky to include in a git repo; so is the matrix of word vectors *produced* by this script. To reproduce our process entirely from scratch, you could download the extracted-feature files from HTRC and edit the script to point to them. Alternatively, here's a Dropbox link to the matrix of vectors we produced: https://www.dropbox.com/s/pknr0co37pzmaax/delta_matrix_4kirkus.tsv?dl=0
 
 **measure_kirkus_distances.py** is arguably the central script for this experiment; it actually does the random selection of pairs of books and measures distances.
+
+**make_kirkus_meta.py** created **genremetadata4kirkusdeltas.tsv**.
+
+**test_hypothesis_3.py** does what it says on the label.
+
+**SonicScrewdriver.py** is just a set of utility functions I keep around, especially for dealing with pairtree filenames.
 
 Results of the experiment
 -------------------------
