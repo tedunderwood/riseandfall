@@ -37,8 +37,16 @@ Here the key file is **annotated_loc2_delta_results3.tsv**, which we concede is 
 
 rplots
 ------
+
 Contains images used in the paper, and the R scripts that produced them.
 
+It also contains two images that we didn't have room for in the paper, that could be fairly illuminating. These superimpose the LoC and Kirkus trend lines in the period where they overlap. First, the other-genre baseline.
+
+![two superimposed trend lines, other-genre baseline](rplots/superimposed_othergenres.jpg)
+
+Also, the fully random baseline:
+
+![two superimposed trend lines, fully random baseline](rplots/superimposed_fullrandom.jpg)
 
 
 
