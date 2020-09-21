@@ -1,6 +1,8 @@
 The rise and fall of genre differentiation in English-language fiction
 ======================================================================
 
+[![DOI](https://zenodo.org/badge/296900027.svg)](https://zenodo.org/badge/latestdoi/296900027)
+
 Code and metadata supporting a paper for Computational Humanities Research.
 
 Authors: Aniruddha Sharma, Yuerong Hu, Peizhen Wu, Wenyi Shang, Shubhangi Singhal, and Ted Underwood.
